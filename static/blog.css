@@ -1,0 +1,117 @@
+.contenerblog {
+  position: relative;
+  width: 72%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 59px;
+  margin-top: 53px;
+  z-index: -1;
+}
+.sabcontener {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 115px;
+}
+
+.titleblog {
+  color: black;
+  font-size: 49px;
+  font-family: SF Pro;
+  font-weight: 400;
+  line-height: 58.8px;
+  word-wrap: break-word;
+}
+.catebottom {
+  height: 44px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  outline: 1px rgba(0, 0, 0, 0.5) solid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.mianblog {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 100%;
+}
+.topmain {
+  gap: 12px;
+  display: flex;
+  width: 100%;
+}
+
+.topmain .catebottom {
+  opacity: 0.7;
+  transition: all .4s ease-in-out;
+}
+
+.topmain .catebottom:hover {
+  cursor: pointer;
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.bottommain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  gap: 23px 27px;
+}
+.onecadrblog {
+  width: 390px;
+  height: 284px;
+  position: relative;
+  border-radius: 20px;
+  background-image: url("./images/blogim.svg");
+  background-repeat: no-repeat;
+}
+.titlecardblog {
+  width: 313px;
+  height: 38px;
+  left: 25px;
+  top: 229px;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-family: SF Pro;
+  font-weight: 400;
+  line-height: 19.2px;
+  word-wrap: break-word;
+}
+
+.headcardblog {
+  width: 90%;
+  left: 24px;
+  top: 24px;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+}
+
+.namedcardblog {
+  color: white;
+  font-size: 31px;
+  font-family: SF Pro;
+  font-weight: 400;
+  line-height: 37.2px;
+  word-wrap: break-word;
+}
+.iconcardblog {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
